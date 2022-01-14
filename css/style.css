@@ -73,7 +73,7 @@ a:hover {
 }
 
 .container {
-   width: 1262px;
+   width: 1264px;
    margin: 0 auto;
 }
 
@@ -256,13 +256,13 @@ a:hover {
    margin-bottom: 39px;
 }
 
-.benefit-item_link a {
+.benefit-item_link a, .arrow-right {
    line-height: 24px;
    color: var(--link-color);
    text-transform: uppercase;
 }
 
-.benefit-item_link a:visited {
+.benefit-item_link a:visited, .arrow-right:visited {
    color: var(--link-color);
 }
 
@@ -293,4 +293,12 @@ a:hover {
    display: flex;
    justify-content: space-between;
    align-items: center;
+}
+
+.inspiration_cards_wrap {
+   display: flex;
+   flex-direction: row-reverse;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin-bottom: 10px;
 }
