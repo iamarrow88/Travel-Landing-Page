@@ -26,6 +26,8 @@
         url('../fonts/lato-v20-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
  }
 
+ /* common styles start*/
+
 html {
    box-sizing: border-box;
 }
@@ -34,4 +36,253 @@ html {
 *::before,
 *::after {
    box-sizing: inherit;
+}
+
+
+:root {
+   --font-color-black: #000000;
+   --font-color-white: #FFFFFF;
+   --icon-header-color: #ffffff;
+   --section-title-color: #102746;
+   --link-color: ##006DFE;
+
+}
+
+body {
+   font-family: Lato;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   color: var(--font-color-black);
+
+}
+
+ /* common styles end*/
+
+ /* elements styles start*/
+
+a {
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+   text-decoration: none;
+}
+
+a:hover {
+   opacity: 0.5;
+}
+
+.container {
+   width: 1262px;
+   margin: 0 auto;
+}
+
+/* elements styles end*/
+
+/* header styles start*/
+
+.header-container {
+   height: 87px;
+   width: 1262px;
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+   padding: 56px 189px 0 191px;
+   margin: 0 auto;
+}
+
+.logo-icon {
+   height: 31px;
+   width: 82px;
+   fill:var(--icon-header-color);
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   margin: 0;
+   padding-top: 6px;
+}
+
+.nav-item {
+   margin: 0 41px;
+   list-style: none;
+}
+.nav-item a {
+   color: var(--font-color-white);
+}
+
+.nav-item a:visited {
+   color: var(--font-color-white);
+}
+
+.nav-item:last-child {
+   margin-right: 0;
+}
+
+/* header styles end*/
+
+/* intro styles start*/
+
+.intro {
+   height: 962px;
+   background: url('../img/intro-bg.jpg')no-repeat;
+}
+
+.intro-wrapper {
+   padding: 263px 274px 0 102px;
+}
+
+.intro-title {
+   width: 619px;
+   font-size: 49px;
+   font-weight: 500;
+   line-height: 60px;
+   color: var(--font-color-white);
+   margin: 0;
+}
+
+.intro-text {
+   width: 546px;
+   line-height: 24px;
+   margin-top: 22px;
+   color: var(--font-color-white);
+}
+
+.header-form__wrapper {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.header-form__input {
+   background: transparent url('../img/svg/Oval.svg') left 6px no-repeat;
+   background-size: 20px;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+   color: var(--font-color-white);
+   border: none;
+   border-bottom: 2px solid #BFC0C5;
+   width: 296px;
+   padding-left: 43px;
+   padding-bottom: 22px;
+   margin-right: 60px;
+
+}
+
+.header-form__input::placeholder {
+   color: var(--font-color-white);
+}
+
+.header-form__input:focus-visible {
+   border: none;
+   border-bottom: 2px solid #BFC0C5;
+}
+
+.header-form__btn {
+   height: 58px;
+   width: 171px;
+   border: none;
+   background-color: #1B7DFF;
+   font-family: Lato;
+   font-size: 24px;
+   font-weight: 500;
+   color: var(--font-color-white);
+   text-transform: uppercase;
+   padding: 14px 0;
+}
+
+.header-form__btn:focus,
+.header-form__btn:hover,
+.header-form__btn:active {
+   background-color: #0360db;
+}
+/* intro styles end*/
+
+/* benefits styles start*/
+.container.benefits {
+   padding: 66px 97px 111px;
+   margin-top: -223px;
+   background-color: #fff;
+   box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+}
+
+.benefits_title {
+   font-family: Lato;
+   font-size: 35px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 42px;
+   letter-spacing: 0px;
+   text-align: left;
+   color: var(--section-title-color);
+   margin-bottom: 116px;
+}
+
+.benefits-item_wrapper {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   
+}
+
+.benefits_item {
+   width: 317px;
+   height: 288px;
+}
+
+.benefits-item_img {
+   width: 66px;
+   height: 66px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 37px;
+}
+
+.benefits-item_title {
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 24px;
+   margin-bottom: 26px;
+}
+
+.benefits-item_descr {
+   line-height: 24px;
+   margin-bottom: 39px;
+}
+
+.benefit-item_link a {
+   line-height: 24px;
+   /* color: var(--link-color); */
+   text-transform: uppercase;
+}
+
+.benefit-item_link a:visited {
+   /* color: var(--link-color); */
+}
+
+.arrow-right {
+   margin-left: 26px;
+}
+
+/* benefits styles end*/
+
+/* inspiration styles start */
+
+.inspiration_title {
+   font-size: 35px;
+   font-weight: 500;
+   line-height: 62px;
+   color: #102746;
+}
+
+.inspiration_title:after {
+   display: block;
+   content: "";
+   width: 252px;
+   height: 2px;
+   background-color: #006DFE;
+
+
 }
