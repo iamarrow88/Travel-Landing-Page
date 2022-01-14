@@ -84,12 +84,16 @@ a:hover {
 .header-container {
    height: 87px;
    width: 1262px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   margin: auto;
    display: flex;
    justify-content: space-between;
-   position: fixed;
+   
    padding: 56px 189px 0 191px;
-   margin: 0 auto;
 }
+   
 
 .logo-icon {
    height: 31px;
@@ -126,7 +130,7 @@ a:hover {
 
 .intro {
    height: 962px;
-   background: url('../img/intro-bg.jpg')no-repeat;
+   background: url('../img/intro-bg.jpg') center center/cover no-repeat;
 }
 
 .intro-wrapper {
@@ -254,12 +258,12 @@ a:hover {
 
 .benefit-item_link a {
    line-height: 24px;
-   /* color: var(--link-color); */
+   color: var(--link-color);
    text-transform: uppercase;
 }
 
 .benefit-item_link a:visited {
-   /* color: var(--link-color); */
+   color: var(--link-color);
 }
 
 .arrow-right {
@@ -283,6 +287,10 @@ a:hover {
    width: 252px;
    height: 2px;
    background-color: #006DFE;
+}
 
-
+.inspiration_title-wrap {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
