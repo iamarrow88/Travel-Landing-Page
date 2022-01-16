@@ -28,6 +28,10 @@ a:hover {
    transition: 0.2s;
 }
 
+a:visited {
+   color: inherit;
+}
+
 li {
    list-style-type: none;
 }
@@ -38,7 +42,7 @@ li {
 }
 
 ._block {
-   width: 1276px;
+   width: 1316px;
    margin: 0 auto;
 }
 
@@ -174,6 +178,7 @@ li {
    height: 655px;
 }
 .benefits__block {
+   width: 1276px;
    margin-top: -227px;
    background: #FFFFFF;
    box-shadow: 0px 2px 20px 0px #15182429;
@@ -221,12 +226,16 @@ li {
 }
 
 .link-more {
-   display: flex;
-   background: url('../img/svg/arrow-right.svg') center right no-repeat;
+   background: url('../img/svg/arrow-right.svg') right center no-repeat;
    height: 24px;
-   min-width: 162px;
    color: #006DFE;
 }
+
+.cards__link {
+   display: block;
+   width: 100%;
+}
+
 
 
 /* ------------------------INSPIRATION------------------------------------------------ */
@@ -234,7 +243,7 @@ li {
    height: 938px;
 }
 .inspiration__block {
-   padding: 135px 0 0 0;
+   padding: 135px 20px 0;
 }
 .inspiration__top {
    display: flex;
@@ -258,7 +267,14 @@ li {
    width: 253px;
 }
 .inspiration__link {
+   width: 131px;
 }
+
+.inspiration__link a {
+   display: block;
+   width: 100%;
+}
+
 .inspiration__wrapper {
    display: flex;
    flex-direction: column;
@@ -313,9 +329,159 @@ li {
 }
 
 
+/* ------------------------VIEW------------------------------------------------ */
+
+
+.view {
+   height: 917px;
+}
+.view__block {
+   padding: 55px 20px 69px;
+   display: flex;
+   flex-direction: column;
+   gap: 77px;
+}
+.view__item {
+}
+.item {
+   width: 1224px;
+   height: 354px;
+   display: flex;
+   gap: 108px;
+}
+
+.item-reverse > .text {
+   order: 1;
+}
+
+.item-reverse > .item__img {
+   order: 2;
+}
+/* .item-reverse > text {
+   order: 5;
+} */
+.item__img {
+   width: 597px;
+   height: 354px;
+}
+.item__text {
+   padding: 15px 0;
+}
+.text {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.text__header {
+   font-size: 30px;
+   font-weight: 500;
+   line-height: 1.33;
+   width: 358px;
+}
+.text__subheader {
+}
+.text__link {
+   width: 203px;
+}
+
+.text__link a {
+   display: block;
+   width: 100%;
+}
+.link-more {
+}
 
 /* ------------------------TOP------------------------------------------------ */
+.top {
+   height: 1512px;
+}
 
+.top__block {
+   padding: 70px 20px 144px;
+   
+}
+
+.top__header {
+   margin-bottom: 64px;
+}
+.top__wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 52px;
+}
+.places {
+}
+.place__elem {
+   width: 30.33%;
+}
+.elem {
+}
+.place-elem__link {
+   display: block;
+   position: relative;
+}
+.place-elem__img {
+   display: block;
+   width: 386px;
+   height: 377px;
+ /*   position: relative; */
+}
+.place-elem__title {
+ /*   position: absolute;
+   bottom: 0;
+   z-index: 10; */
+   background-color: rgba(21, 24, 36, 0.6);
+   height: 55px;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   padding: 15px 25px;
+   position: absolute;
+   bottom: 0;
+   z-index: 15;
+
+}
+.title__header {
+   color: #ffffff;
+}
+.title__block {
+   color: #ffffff;
+   display: flex;
+   height: 24px;
+   align-items: center;
+   gap: 14px;
+
+}
+.title__likes {
+   display: flex;
+   height: 24px;
+   align-items: center;
+   gap: 4px;
+   font-size: 16px;
+}
+
+.title__messages {
+   display: flex;
+   height: 24px;
+   align-items: center;
+   gap: 9px;
+   font-size: 16px;
+}
+.title__likes img {
+   width: 16px;
+   height: 16px;
+}
+.title__messages {
+}
+.title__messages {
+}
+.place-elem__descr {
+   width: 391px;
+}
+.place-elem__more {
+}
+.link-btn {
+}
 
 /* ------------------------VIDEO------------------------------------------------ */
 
