@@ -16,6 +16,7 @@ body {
    font-style: normal;
    font-weight: 400;
    letter-spacing: 0px;
+   margin: 0;
 }
 
 a {
@@ -45,6 +46,7 @@ li {
    width: 1316px;
    margin: 0 auto;
 }
+
 
 /* -------------------------HEADER------------------------------------------ */
 
@@ -92,6 +94,8 @@ li {
    height: 962px;
    background: url('../img/intro-bg.jpg') center center no-repeat;
    background-size: cover;
+   /* background-color:rgba(16, 39, 70, 1); */
+   width: 100%;
 }
 .intro__container {
    padding: 263px 0 0 111px;
