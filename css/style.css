@@ -160,8 +160,7 @@ li {
    line-height: 1.33;
    color: #FFFFFF;
 }
-.intro__btn {
-}
+
 .button {
    width: 171px;
    height: 58px;
@@ -202,11 +201,6 @@ li {
    display: flex;
    justify-content: center;
    flex: 1 1 33,33%;
-}
-.cards {
-}
-.cards__item {
-  /*  width: 33,33%; */
 }
 
 .cards__img {
@@ -313,10 +307,7 @@ li {
 .inspiration-cards__item img:hover {
    transform: scale(1.2);
 }
-.inspiration-cards__item {
-}
-.cards-item__img {
-}
+
 .cards-item__descr {
    position: absolute;
    bottom: 27px;
@@ -345,8 +336,7 @@ li {
    flex-direction: column;
    gap: 77px;
 }
-.view__item {
-}
+
 .item {
    width: 1224px;
    height: 354px;
@@ -382,8 +372,7 @@ li {
    line-height: 1.33;
    width: 358px;
 }
-.text__subheader {
-}
+
 .text__link {
    width: 203px;
 }
@@ -392,8 +381,7 @@ li {
    display: block;
    width: 100%;
 }
-.link-more {
-}
+
 
 /* ------------------------TOP------------------------------------------------ */
 .top {
@@ -413,12 +401,9 @@ li {
    flex-wrap: wrap;
    gap: 52px;
 }
-.places {
-}
+
 .place__elem {
    width: 30.33%;
-}
-.elem {
 }
 .place-elem__link {
    display: block;
@@ -476,18 +461,14 @@ li {
    width: 16px;
    height: 16px;
 }
-.title__messages {
-}
-.title__messages {
-}
+
 .place-elem__descr {
    width: 391px;
    line-height: 1.5;
    color: rgba(16, 39, 70, 1);
    margin-bottom: 31px;
 }
-.place-elem__more {
-}
+
 .link-btn {
    display: block;
    height: 42px;
@@ -546,8 +527,7 @@ li {
    display: flex;
    gap: 139px;
 }
-.footer__column {
-}
+
 .column__wrapper {
    height: 134px;
    display: flex;
